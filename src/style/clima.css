@@ -1,0 +1,56 @@
+.clima-app{
+    background-color: rgba(94, 84, 231, 0.712);
+    width: 43%;
+    height: 100px;
+    position: relative;
+    left: 15%;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+.clima-app:hover{
+    box-shadow: 0px 10px 25px -15px black;
+}
+
+.clima-app h1{
+    color:white;
+    font-size: 25px;
+    position: relative;
+    top: 30px;
+    left: 10%;
+}
+
+.clima-app .dayImgtop img {
+    position: absolute;
+    top: 15px;
+    height: 100px;
+    width: 52%;
+    left: 45%;
+    background: url(../assets/weather.png);
+    background-size: 60px 50px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    padding-bottom: 0; 
+}
+
+.clima-app .temptop{
+    position: relative;
+    top: -15px;
+    left: 60%;
+    color: white;
+}
+
+.clima-app .tempmantop{
+    position: relative;
+    top: -70px;
+    left: 80%;
+    color: white;
+    font-size: 15px;
+}
+
+.clima-app .tempmintop{
+    position: relative;
+    top: -70px;
+    left: 80%;
+    color: white;
+    font-size: 15px;
+}

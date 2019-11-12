@@ -1,0 +1,19 @@
+.response{
+    width: 600px;
+    height: 150px;
+    top: 30px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(232, 233, 233);
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px rgba(177, 176, 176, 0.486);
+}
+
+.response p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    position: relative;
+    top: 15px;
+    left: 25px;
+}

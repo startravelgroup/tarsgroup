@@ -1,0 +1,26 @@
+.weatherBlock {
+    background-color: blueviolet;
+    right: 0%;
+    top: 0%;
+    width: 25%;
+    height: 100%;
+    position: absolute;
+    background: url("../assets/backgroundWeather.png");
+    background-size: cover;
+    padding-top: 5px;
+    transition: 1s;
+
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.weatherBlock:hover {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+/*.weatherBlock:hover {
+    
+   right: 0%;
+
+}*/

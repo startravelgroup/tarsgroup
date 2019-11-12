@@ -1,0 +1,77 @@
+.header-app{
+    width: 70%;
+    height: 55px;
+    background: url() ;
+    position: relative;
+    top: 10px;
+    text-align: center;
+    border-radius: 15px;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.header-app h1{ position: relative; top: 40px; font-size: 20px; }
+
+.header-app p{ position: relative; top: 20px;}
+
+.logo {
+    position: absolute;
+    height: 25px;
+    width: 200px;
+    top: 25px;
+    z-index: 2;
+    left: 10%;
+}
+
+.logo img{
+    position: absolute;
+    height: 25px;
+    width: 200px;
+    background: url(../assets/logo.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.logo img:hover {
+    position: absolute;
+    height: 25px;
+    width: 200px;
+    background: url(../assets/logoAtivo.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+
+.input-app{ position: absolute; top: 15px; width: 100%; z-index: 3;  }
+
+.input-app input{
+    position: absolute;
+    right: 3%;
+    width: 45%;
+    height: 45px;
+    border-radius: 15px;
+    border: none;
+    background-color: #F6F5FA;
+    box-shadow: 1px 1px 1px 1px rgba(187, 187, 187, 0.404);
+    transition: 0.5s;
+    padding-left: 5%;
+    
+}
+
+.input-app ::placeholder { position: relative; color: #D4D0E4; }
+
+.header-app input:focus{
+    outline: none !important;
+    width: 77%;
+    box-shadow: 0px 15px 25px -15px rgba(0, 0, 0, 0.466);
+    height: 55px;
+}
+
+
+
+
+
+
+

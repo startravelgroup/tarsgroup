@@ -1,0 +1,64 @@
+.newstwo-app{
+    width: 420px;
+    height: 110px;
+    position: relative;
+    float: left;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: rgba(252, 252, 252, 0.253);
+    position: relative;
+    float: left;
+    transition: 0.5s;
+    cursor: pointer;
+    
+    
+}
+
+.newstwo-app a{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.newstwo-app .newstwo-block{
+    width: 30%;
+    height: 100%;
+    position: relative;
+    float: left;
+    background: url("../assets/article.png");
+    background-size: 100% 100%;
+    border-radius: 15px;
+    
+}
+
+.newstwo-app h1{
+    font-size: 20px;
+    position: relative;
+    left: 40px;
+}
+
+.newstwo-app p{
+    font-size: 18px;
+    position: relative;
+    color: rgba(0, 0, 0, 0.5);
+    float: left;
+    left: 40px;
+}
+
+.newstwo-app .Img{
+    width: 30%;
+    height: 80%;
+    border-radius: 15px;
+    background-color: grey;
+}
+
+.newstwo-app .Img p{
+    color: white;
+    position: relative;
+    left: 20px;
+}
+
+.newstwo-app:hover {
+    box-shadow: 0px 10px 25px -15px black;
+}

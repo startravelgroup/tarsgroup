@@ -1,0 +1,142 @@
+.weatherHistoric {
+    width: 70%;
+    height: 80%;
+    color: rgb(51, 51, 51);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.411);
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+
+
+.temp {
+    font-size: 3.4rem;
+    float: left;
+    padding-left: 30px;
+    font-weight: 200;
+    padding-top: 20px;
+}
+
+.temp-max {font-size: 1.3rem; font-weight: 400; padding-top: 20px;}
+
+.temp-min {font-size: 1.3rem; font-weight: 400; padding-top: 20px;}
+
+.day {
+    font-size: 1.3rem;
+    z-index: 2;
+    font-weight: 400;
+    top: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.dayImg {
+    height: 80px;
+    width: 100%;
+    padding-top: 20px;
+
+}
+
+.dayImg img {
+    position: absolute;
+    height: 100px;
+    width: 52%;
+    left: 32%;
+    background: url(../assets/weather.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    padding-bottom: 0; 
+}
+
+.weatherPercents {
+    font-size: 1.1rem;
+    color: #6E6E6E;
+    font-weight: bold;
+}
+
+.weatherHistoric span {
+    font-size: 1rem;
+}
+
+.linha {
+    height: 1px;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #6E6E6E;
+}
+
+.bairroSpan {
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+}
+
+.bairro {
+    margin: auto;
+    height: 10%;
+    width: 85%;
+    padding: 5%;
+    padding-bottom: 10%;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    top: 200px;
+    left: 10%;
+    cursor: pointer;
+    transition: 1s;
+    text-align: start;
+}
+
+.bairro span {
+    font-size: 0.8rem;
+    opacity: 0.6;
+}
+
+.bairro:hover {
+    background-color: rgba(0, 0, 0, 0.63);
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+.dayImg :hover { opacity: 0.7; }
+.day :hover { opacity: 0.7; }
+
+.historic-app{
+    width: 100%;
+    height: 40px;
+}
+
+.historic-app button{
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 92%;
+    height: 25px;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.63);
+    color: rgb(255, 255, 255);
+}
+
+.historic-app button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.63);
+}
+
+.historic-app input{
+    border: none;
+    border-radius: 10px;
+    width: 92%;
+    height: 25px;
+    margin: 5px;
+}
+
+.historic-app .input{
+    display: none;
+}
